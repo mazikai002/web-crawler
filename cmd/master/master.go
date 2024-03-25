@@ -1,8 +1,9 @@
 package master
 
 import (
-	"github.com/spf13/cobra"
 	"net/http"
+
+	"github.com/spf13/cobra"
 )
 
 var MasterCmd = &cobra.Command{
@@ -44,4 +45,14 @@ func Run() {
 			panic(err)
 		}
 	}()
+
+	// load config
+
+	// log init
+
+	// init tasks
+
+	// start http proxy to GRPC
+
+	// start grpc server
 }

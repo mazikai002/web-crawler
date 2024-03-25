@@ -42,5 +42,19 @@ func init() {
 }
 
 func Run() {
+	// PProf init
 
+	// log init
+
+	// fetcher
+
+	// storage
+
+	// init task
+
+	// worker start
+
+	// start http proxy to GRPC
+
+	// start grpc server
 }
